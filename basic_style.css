@@ -19,10 +19,20 @@ li a {
         text-decoration: none;
 }
 
-li a:hover {
-        background-color: orange;
+div {
+        transition: all 0.5s ease;
+        background: #333;
+        
 
 }
+
+div:hover{
+        background: orange;
+        padding: 5px;
+        
+}
+        
+
 
 h1 {
         text-align: center;
@@ -30,6 +40,7 @@ h1 {
 
 }
 
+<<<<<<< HEAD
 .btn {
         background-color: black;
         border: none;
@@ -45,3 +56,7 @@ h1 {
         transition:0.3s;
         border-radius:50%;
 }       
+=======
+
+
+>>>>>>> 453fd51204415599d5874e7c48f1ccb6fb9f7033
