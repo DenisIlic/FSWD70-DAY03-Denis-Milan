@@ -40,11 +40,10 @@ h1 {
 
 }
 
-<<<<<<< HEAD
-.btn {
+
+.circle {
         background-color: black;
         border: none;
-        padding: 16px 32px;
         text-align: center;
         font-size: 16px;
         margin: 4px 2px;
@@ -54,9 +53,18 @@ h1 {
 
 .circle:hover{
         transition:0.3s;
-        border-radius:50%;
-}       
-=======
 
+}
 
->>>>>>> 453fd51204415599d5874e7c48f1ccb6fb9f7033
+.txt{
+        font-size: 20px;
+        margin: 20px;
+        transition: color: 2s;
+        text-shadow: 0px 0px 2px;
+}
+
+.txt:hover{
+        color: orange;
+        transition: text-shadow 3s ease;
+}
+
