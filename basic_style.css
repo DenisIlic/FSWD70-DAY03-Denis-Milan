@@ -31,9 +31,8 @@ h1 {
 }
 
 .btn {
-        background-color: #f4511e;
+        background-color: black;
         border: none;
-        color: white;
         padding: 16px 32px;
         text-align: center;
         font-size: 16px;
@@ -41,3 +40,8 @@ h1 {
         opacity: 0.6;
         transition: 0.3s;
 }
+
+.circle:hover{
+        transition:0.3s;
+        border-radius:50%;
+}       
